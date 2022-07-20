@@ -3,7 +3,7 @@ import Typed from "typed.js";
 // import { Linkedin, Facebook } from "../public/assets/images";
 import { Facebook } from "../public/assets/images";
 export const Home = () => {
-  const text = useMemo(() => [" Zubaid Rasool", " Web develper"], []);
+  const text = useMemo(() => [" Zubaid Rasool", " Web Develper"], []);
   const divRef: any = useRef();
 
   useEffect(() => {
