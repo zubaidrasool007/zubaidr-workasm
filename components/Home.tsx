@@ -29,7 +29,8 @@ export const Home = () => {
   }, [text]);
 
   return (
-    <div className="bg-[url('https://cutesolution.com/html/lavina/assets/img/home-bg.jpg')]">
+    <div className="bg-[url('https://miro.medium.com/max/1400/1*7XHRx_Amh6_fCXr7buMvlg.jpeg')] bg-no-repeat bg-cover bg-center w-full  relative  z-[1] ">
+      <div className=" absolute w-full h-[100%]  top-0  left-0  bg-black opacity-[.6] z-[-1]"></div>
       <div className="flex flex-col justify-center  items-center min-h-[660px]  space-y-4  ">
         <div>
           <h1 className="text-[#fff] text-[18px]  font-extrabold">
