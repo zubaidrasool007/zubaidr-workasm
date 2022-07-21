@@ -109,7 +109,6 @@ export const Navbar = () => {
           </div>
         </div>
       </div>
-
       <Transition
         show={isOpen}
         enter="transition ease-out duration-100"
