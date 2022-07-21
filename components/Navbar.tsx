@@ -33,8 +33,7 @@ export const Navbar = () => {
     <Disclosure
       as="nav"
       className={classNames(
-        navbar ? "fixed top-0 bg-white transition-all" : "",
-        "w-full fixed bg-white md:bg-transparent"
+        navbar ? "fixed top-0 bg-white  transition-all z-[2] w-full" : ""
       )}
     >
       <div className="w-full">
