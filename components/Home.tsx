@@ -3,7 +3,7 @@ import Typed from "typed.js";
 // import { Linkedin, Facebook } from "../public/assets/images";
 import { Facebook } from "../public/assets/images";
 export const Home = () => {
-  const text = useMemo(() => [" Zubaid Rasool", " Web Develper"], []);
+  const text = useMemo(() => [" Zubaid Rasool", " Web Developer"], []);
   const divRef: any = useRef();
 
   useEffect(() => {
@@ -39,7 +39,7 @@ export const Home = () => {
         </div>
         <div>
           <span className="text-[#fff] text-[33px] sm:text-[50px]  font-bold  ">
-            I am&nbsp;
+            I am &nbsp;
           </span>
 
           <span
