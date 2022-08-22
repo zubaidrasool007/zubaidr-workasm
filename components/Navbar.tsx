@@ -9,8 +9,7 @@ const navigation = [
   { name: "About", href: "#", current: false },
   { name: "Service", href: "#", current: false },
   { name: "Resume", href: "#", current: false },
-  { name: "Portfolio", href: "#", current: false },
-  { name: "Blog", href: "#", current: false },
+  { name: "Projects", href: "#", current: false },
   { name: "Contact", href: "#", current: false },
 ];
 export const Navbar = () => {
