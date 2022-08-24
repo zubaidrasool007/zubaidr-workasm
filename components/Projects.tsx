@@ -1,11 +1,11 @@
 import React from "react";
 const portFolioWork = [
-  { path: "https://wallpaperaccess.com/full/393735.jpg" },
-  { path: "https://wallpaperaccess.com/full/393735.jpg" },
-  { path: "https://wallpaperaccess.com/full/393735.jpg" },
-  { path: "https://wallpaperaccess.com/full/393735.jpg" },
-  { path: "https://wallpaperaccess.com/full/393735.jpg" },
-  { path: "https://wallpaperaccess.com/full/393735.jpg" },
+  { path: "/assets/images/laptop.webp" },
+  { path: "/assets/images/design.webp" },
+  { path: "/assets/images/work.jpg" },
+  { path: "/assets/images/work2.jpg" },
+  { path: "/assets/images/work3.jpg" },
+  { path: "/assets/images/work4.jpg" },
 ];
 
 export const Projects = () => {
