@@ -1,4 +1,5 @@
 import { About } from "./About";
+import { Footer } from "./Footer";
 import { Contact } from "./Contact";
 import { Home } from "./Home";
 import { Navbar } from "./Navbar";
@@ -16,6 +17,7 @@ export const Layout = ({ children }: any) => {
       <About />
       <Projects />
       <Services />
+      <Footer />
       <Contact />
       <Testimonials />
       <Skills />
