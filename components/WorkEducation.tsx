@@ -67,7 +67,7 @@ export const WorkEducation = () => {
             ))}
           </div>
           <div className="block flex justify-center items-center flex-col rounded-[3px] mb-10 px-10 py-5 bg-[#0c0f16] border border-[#151921] shadow-[rgba(100, 100, 111, 0.2) 0px 7px 29px 0px]">
-            {eduction.map((data) => (
+            {education.map((data) => (
               <div className=" py-6 pl-[30px] md:pl-[50px] max-w-xl md:max-w-sm relative circle line">
                 <h5 className="mb-2 text-[20px]  text-[#fff]  font-[500] tracking-tight  ">
                   {data.title}
