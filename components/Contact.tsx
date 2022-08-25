@@ -1,15 +1,16 @@
-import React from "react";
-
 export const Contact = () => {
   return (
-    <div className="bg-[url('https://cutesolution.com/html/lavina/assets/img/contact-bg.png')] bg-no-repeat bg-cover bg-center  p-100">
-      <div className="mt-20 pb-20 ">
+    <div
+      className="bg-[url('/assets/images/contact.png')] bg-no-repeat bg-cover bg-center  p-100 h-[100vh]"
+      id={"Contact"}
+    >
+      <div className="mt-20 pb-20 px-4 flex justify-center flex-col h-[100%]">
         <h1 className="text-[#fff] pt-[80px] text-[35px] font-[900] text-center mb-3 ">
           Get In Touch
         </h1>
         <div className="about relative mb-20"></div>
         <div className="flex justify-center">
-          <form className="w-full max-w-[800px] p-3 md:p-0">
+          <form className="w-full max-w-[800px] p-3  md:p-0">
             <div className="flex items-center flex-col md:flex-row   gap-x-8">
               <input
                 className="appearance-none bg-transparent border border-t-transparent border-x-transparent border-b-[#353535] w-full text-[#fff]  py-[15px] px-2 leading-tight focus:outline-none"
@@ -28,8 +29,8 @@ export const Contact = () => {
               <input
                 className="appearance-none bg-transparent border border-t-transparent border-x-transparent border-b-[#353535] w-full text-[#fff]  py-[15px] px-2 leading-tight focus:outline-none"
                 type="text"
-                placeholder="Name"
-                aria-label="Name"
+                placeholder="Email"
+                aria-label="Email"
               />
             </div>
             <div className=" mt-3">

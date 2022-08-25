@@ -1,50 +1,8 @@
-import React from "react";
+import { work, education } from "../constants";
 
-const work = [
-  {
-    title: "Full stack Web Developer",
-    date: "2018 - 2020",
-    content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
-  },
-  {
-    title: "Back-End Developer",
-    date: "2018 - 2020",
-    content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
-  },
-  {
-    title: "UI Designer",
-    date: "2018 - 2020",
-    content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
-  },
-];
-
-const education = [
-  {
-    title: "Academic Degree",
-    date: "2018 - 2020",
-    content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
-  },
-  {
-    title: "Bachelor’s Degree",
-    date: "2018 - 2020",
-    content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
-  },
-  {
-    title: "Specialization Course",
-    date: "2018 - 2020",
-    content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
-  },
-];
-
-export const WorkEducation = () => {
+export const Resume = () => {
   return (
-    <div className="bg-[#10141b] mt-20 p-4 md:p-[20px]">
+    <div className="bg-[#10141b] mt-20 p-4 md:p-[20px] " id={"Resume"}>
       <div className="mt-20">
         <h1 className="text-[#fff] text-[35px] font-[900] text-center mb-3 ">
           Work & Education

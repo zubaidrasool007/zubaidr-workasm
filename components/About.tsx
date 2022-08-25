@@ -1,17 +1,21 @@
+import Image from "next/image";
+
 export const About = () => {
   return (
-    <div className="bg-[#10141b] p-4 md:p-[100px]">
-      <div className="flex flex-col">
+    <div className="bg-[#10141b] p-4 h-[100vh]" id={"About"}>
+      <div className="flex flex-col justify-center h-[100%]">
         <h1 className="text-[#fff] text-[40px] font-bold text-center mb-3 relative">
           About Me
         </h1>
         <div className="about relative mb-20"></div>
         <div className="flex flex-col justify-center items-center bg-[#10141b] md:flex-row  ">
-          <div className="border-solid border-[10px] border-[#fff]">
-            <img
-              className=" w-full h-96  md:h-auto md:w-[500px] md:rounded-none "
-              src="https://cutesolution.com/html/lavina/assets/img/about.jpg"
-            />
+          <div className="flex border-solid border-[10px] border-[#fff]">
+            <Image
+              src="/assets/images/zubidrasool.png"
+              width={500}
+              height={400}
+              alt="data"
+            ></Image>
           </div>
           <div className="flex flex-col  p-4 sm:w-full md:max-w-xl ">
             <div className="mb-5">
