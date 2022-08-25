@@ -21,7 +21,7 @@ const work = [
   },
 ];
 
-const eduction = [
+const education = [
   {
     title: "Academic Degree",
     date: "2018 - 2020",
