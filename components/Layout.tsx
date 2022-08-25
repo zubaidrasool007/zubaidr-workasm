@@ -17,11 +17,11 @@ export const Layout = ({ children }: any) => {
       <About />
       <Projects />
       <Services />
-      <Footer />
       <Contact />
       <Testimonials />
       <Skills />
       <WorkEducation />
+      <Footer />
     </div>
   );
 };
