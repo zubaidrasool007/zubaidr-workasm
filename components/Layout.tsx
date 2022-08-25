@@ -4,6 +4,7 @@ import { Navbar } from "./Navbar";
 import { Projects } from "./Projects";
 import { WorkEducation } from "./WorkEducation";
 import { Services } from "./Services";
+import { Testimonials } from "./Testimonials";
 import { Skills } from "./Skills";
 
 export const Layout = ({ children }: any) => {
@@ -14,6 +15,7 @@ export const Layout = ({ children }: any) => {
       <About />
       <Projects />
       <Services />
+      <Testimonials />
       <Skills />
       <WorkEducation />
     </div>
