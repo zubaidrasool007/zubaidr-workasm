@@ -1,78 +1,18 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
+import Image from "next/image";
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import { Autoplay, Pagination, Navigation, FreeMode } from "swiper";
-const workingSkills = [
-  {
-    title: "Html",
-    content:
-      "Lorem ipsum dolor sit amet, id lacus consectetur adipiscingelit. Vivamus egestas, luctus eni",
-  },
-  {
-    title: "Css",
-    content:
-      "Lorem ipsum dolor sit amet, id lacus consectetur adipiscingelit. Vivamus egestas, luctus eni",
-  },
-  {
-    title: "JavaScript",
-    content:
-      "Lorem ipsum dolor sit amet, id lacus consectetur adipiscingelit. Vivamus egestas, luctus eni",
-  },
-  {
-    title: "MUI",
-    content:
-      "Lorem ipsum dolor sit amet, id lacus consectetur adipiscingelit. Vivamus egestas, luctus eni",
-  },
-  {
-    title: "Tailwind",
-    content:
-      "Lorem ipsum dolor sit amet, id lacus consectetur adipiscingelit. Vivamus egestas, luctus eni",
-  },
-  {
-    title: "Angular",
-    content:
-      "Lorem ipsum dolor sit amet, id lacus consectetur adipiscingelit. Vivamus egestas, luctus eni",
-  },
-  {
-    title: "Node Js",
-    content:
-      "Lorem ipsum dolor sit amet, id lacus consectetur adipiscingelit. Vivamus egestas, luctus eni",
-  },
-  {
-    title: "ReactJS",
-    content:
-      "Lorem ipsum dolor sit amet, id lacus consectetur adipiscingelit. Vivamus egestas, luctus eni",
-  },
-  {
-    title: "MongoDB",
-    content:
-      "Lorem ipsum dolor sit amet, id lacus consectetur adipiscingelit. Vivamus egestas, luctus eni",
-  },
-  {
-    title: "MSSQL",
-    content:
-      "Lorem ipsum dolor sit amet, id lacus consectetur adipiscingelit. Vivamus egestas, luctus eni",
-  },
-  {
-    title: "PostgreSQL",
-    content:
-      "Lorem ipsum dolor sit amet, id lacus consectetur adipiscingelit. Vivamus egestas, luctus eni",
-  },
-  {
-    title: "ExpressJS",
-    content:
-      "Lorem ipsum dolor sit amet, id lacus consectetur adipiscingelit. Vivamus egestas, luctus eni",
-  },
-];
-
+import { workingSkills } from "../constants";
 export const Skills = () => {
   return (
-    <div className="bg-[#10141b]  p-4 md:p-[20px] ">
-      <div className="mt-20">
+    <div
+      className="bg-[#10141b] px-2 sm:px-5  py-4 md:py-[20px] "
+      id={"Skills"}
+    >
+      <div className="py-40">
         <h1 className="text-[#fff] text-[35px] font-[900] text-center mb-3 ">
           My Skills
         </h1>
@@ -110,9 +50,19 @@ export const Skills = () => {
         >
           {workingSkills.map((data) => (
             <SwiperSlide>
-              <div className="block flex justify-center items-center flex-col rounded-[3px] mb-10 px-5 py-10 bg-[#151921] border border-[#151921] shadow-md ">
-                <div className=" rotate-[45deg]  rounded-[20px] bg-[#c8c8c812]  mb-[30px] w-[70px] h-[70px] hover:bg-[#e28007]"></div>
-                <h5 className="mb-2 text-2xl  text-[#fff] text-center font-bold tracking-tight  ">
+              <div className="block flex justify-center items-center flex-col rounded-[3px] mb-10 px-1 sm:px-5 py-10 bg-[#151921] border border-[#151921] shadow-md ">
+                <div className="relative flex  justify-center items-center">
+                  <div className=" rotate-[45deg]  rounded-[20px] bg-[#c8c8c812]   w-[70px] h-[70px] "></div>
+                  <div className=" absolute ">
+                    <a
+                      href={data.href}
+                      className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+                    >
+                      <Image src={data.svg} height={40} width={40}></Image>
+                    </a>
+                  </div>
+                </div>
+                <h5 className="mb-2 text-2xl  mt-[30px]  text-[#fff] text-center font-bold tracking-tight  ">
                   {data.title}
                 </h5>
                 <p className="font-normal text-center text-[#c5c5c5] ">

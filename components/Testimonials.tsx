@@ -1,47 +1,15 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import { Autoplay, Pagination, Navigation, FreeMode } from "swiper";
-import React from "react";
-const workingSkills = [
-  {
-    title: "Html",
-    content:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-  },
-  {
-    title: "Css",
-    content:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-  },
-  {
-    title: "JavaScript",
-    content:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-  },
-  {
-    title: "MUI",
-    content:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-  },
-  {
-    title: "Tailwind",
-    content:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-  },
-  {
-    title: "Angular",
-    content:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-  },
-];
-
+import { reviews } from "../constants";
 export const Testimonials = () => {
   return (
-    <div className="bg-[url('https://cutesolution.com/html/lavina/assets/img/review-bg.png')] bg-no-repeat bg-cover bg-center  p-100">
+    <div
+      className="bg-[url('/assets/images/testimonial.png')] bg-no-repeat bg-cover bg-center  p-100"
+      id={"Testimonials"}
+    >
       <div className="mt-20 ">
         <h1 className="text-[#fff] pt-[80px] text-[35px] font-[900] text-center mb-3 ">
           Testimonials
@@ -61,7 +29,7 @@ export const Testimonials = () => {
           modules={[Autoplay, Pagination]}
           className="mySwiper   "
         >
-          {workingSkills.map((data) => (
+          {reviews.map((data) => (
             <SwiperSlide>
               <div className="block flex justify-center items-center flex-col  mb-10 px-5 py-10 ">
                 <img
