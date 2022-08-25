@@ -1,10 +1,10 @@
-import Link from "next/link";
 import { useState, useEffect } from "react";
 import { Transition, Disclosure } from "@headlessui/react";
 import { navItems } from "../constants";
-function classNames(...classes: any) {
+
+const classNames = (...classes: any) => {
   return classes.filter(Boolean).join(" ");
-}
+};
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);

@@ -1,4 +1,3 @@
-import React from "react";
 import { work, education } from "../constants";
 
 export const Resume = () => {

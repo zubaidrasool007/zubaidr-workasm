@@ -9,7 +9,7 @@ import Image from "next/image";
 export const Services = () => {
   return (
     <div className="px-2 sm:px-5" id={"Service"}>
-      <div className="py-40">
+      <div className="my-40">
         <h1
           className="text-[#fff] text-[40px] font-bold text-center mb-3 "
           id={"Services"}
@@ -53,8 +53,8 @@ export const Services = () => {
               <div className="block flex justify-center items-center flex-col  rounded-[3px] mb-10 px-5 py-10 bg-[#151921]  border border-[#151921] shadow-md">
                 <div className="relative flex  justify-center items-center">
                   <div className=" rotate-[45deg]  rounded-[20px] bg-[#c8c8c812]   w-[70px] h-[70px] "></div>
-                  <div className=" absolute ">
-                    <Image src={data.svg} height={40} width={40}></Image>
+                  <div className=" absolute flex ">
+                    <Image src={data.svg} height={30} width={30}></Image>
                   </div>
                 </div>
 

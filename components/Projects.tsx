@@ -1,4 +1,3 @@
-import React from "react";
 import { projectWork } from "../constants";
 
 export const Projects = () => {

@@ -1,4 +1,3 @@
-import React from "react";
 import { icons } from "../constants";
 import Image from "next/image";
 export const Footer = () => {
@@ -10,7 +9,7 @@ export const Footer = () => {
             <div className="relative flex flex-rows   justify-center items-center">
               <div className=" border-solid border-2 hover:z-[1] bg-[#e28007]  border-[#e28007]  rotate-[45deg] rounded-[10px]  p-[15px] rounded-[10px]  hover:bg-transparent cursor-pointer hover:ease-in"></div>
               <div className="absolute hover:z-[-1] ">
-                <a href={path}>
+                <a href={path} className="flex">
                   <Image src={svg} height={20} width={20}></Image>
                 </a>
               </div>

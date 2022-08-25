@@ -1,4 +1,3 @@
-import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Image from "next/image";
 import "swiper/css";
@@ -12,7 +11,7 @@ export const Skills = () => {
       className="bg-[#10141b] px-2 sm:px-5  py-4 md:py-[20px] "
       id={"Skills"}
     >
-      <div className="py-40">
+      <div className="my-40">
         <h1 className="text-[#fff] text-[35px] font-[900] text-center mb-3 ">
           My Skills
         </h1>
@@ -53,12 +52,9 @@ export const Skills = () => {
               <div className="block flex justify-center items-center flex-col rounded-[3px] mb-10 px-1 sm:px-5 py-10 bg-[#151921] border border-[#151921] shadow-md ">
                 <div className="relative flex  justify-center items-center">
                   <div className=" rotate-[45deg]  rounded-[20px] bg-[#c8c8c812]   w-[70px] h-[70px] "></div>
-                  <div className=" absolute ">
-                    <a
-                      href={data.href}
-                      className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
-                    >
-                      <Image src={data.svg} height={40} width={40}></Image>
+                  <div className=" absolute  ">
+                    <a href={data.href} className="flex">
+                      <Image src={data.svg} height={30} width={30}></Image>
                     </a>
                   </div>
                 </div>
