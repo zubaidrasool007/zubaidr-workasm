@@ -2,13 +2,10 @@ import { projectWork } from "../constants";
 
 export const Projects = () => {
   return (
-    <div className=" p-4 pb-20">
+    <div className=" p-4 pb-20 " id={"Projects"}>
       <div className="mt-20 ">
-        <h1
-          className="text-[#fff] text-[35px] font-[900] text-center mb-3 "
-          id={"Projects"}
-        >
-          Portfolio
+        <h1 className="text-[#fff] text-[35px] font-[900] text-center mb-3 ">
+          Projects
         </h1>
         <div className="about relative mb-20"></div>
         <div className="grid justify-center  ">
