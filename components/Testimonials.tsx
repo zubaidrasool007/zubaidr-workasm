@@ -31,7 +31,7 @@ export const Testimonials = () => {
         >
           {reviews.map((data) => (
             <SwiperSlide>
-              <div className="block flex justify-center items-center flex-col mb-10 px-5 py-10 ">
+              <div className="flex justify-center items-center flex-col mb-10 px-5 py-10 ">
                 <img
                   className="p-1 w-[110px] h-[110px] mb-10 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"
                   src="https://im.indiatimes.in/content/itimes/photo/2016/Jul/21/1469099514-cutest-baby-images-newborn-babies.jpg"

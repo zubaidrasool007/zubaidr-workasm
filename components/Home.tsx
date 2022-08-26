@@ -28,7 +28,7 @@ export const Home = () => {
 
   return (
     <div
-      className="bg-[url('/assets/images/home.png')] bg-no-repeat bg-cover bg-center bg-fixed bg-center w-full relative z-[1] h-[100vh] "
+      className="bg-[url('/assets/images/home.png')] bg-no-repeat bg-cover bg-center bg-fixed w-full relative z-[1] h-[100vh] "
       id={"Home"}
     >
       <div className="absolute w-full h-[100%] top-0 left-0 bg-black opacity-[.6] z-[-1]"></div>
@@ -51,7 +51,7 @@ export const Home = () => {
         <div className="flex gap-5 pb-6">
           {icons.map(({ svg, path }) => (
             <div className="relative flex flex-rows justify-center items-center">
-              <div className=" border-solid border-2 bg-[#e28007] border-[#e28007] rotate-[45deg] rounded-[10px] p-[18px] rounded-[10px] hover:bg-transparent hover:z-[1] cursor-pointer hover:ease-in"></div>
+              <div className=" border-solid border-2 bg-[#e28007] border-[#e28007] rotate-[45deg] p-[18px] rounded-[10px] hover:bg-transparent hover:z-[1] cursor-pointer hover:ease-in"></div>
               <div className="absolute hover:z-[-1]">
                 <a href={path} className="flex">
                   <Image src={svg} height={22} width={22}></Image>
@@ -64,13 +64,13 @@ export const Home = () => {
         <div className="space-x-4">
           <a
             href={`#${"Portfolio"}`}
-            className="bg-[#e28007] text-[#fff] font-bold px-8 py-3 rounded-[30px] hover:bg-transparent border border-2 border-[#e28007] cursor-pointer hover:ease-in"
+            className="bg-[#e28007] text-[#fff] font-bold px-8 py-3 rounded-[30px] hover:bg-transparent border-2 border-[#e28007] cursor-pointer hover:ease-in"
           >
             View work
           </a>
           <a
             href={`#${"Contact"}`}
-            className="bg-[#e28007] font-bold text-[#fff] px-8 py-3 rounded-[30px] hover:bg-transparent border border-2  border-[#e28007] cursor-pointer hover:ease-in"
+            className="bg-[#e28007] font-bold text-[#fff] px-8 py-3 rounded-[30px] hover:bg-transparent border-2  border-[#e28007] cursor-pointer hover:ease-in"
           >
             Hire Me
           </a>
