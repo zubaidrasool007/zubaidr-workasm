@@ -5,12 +5,12 @@ export const GithubChart = () => {
         Contributions
       </h1>
       <div className="about relative mb-20"></div>
-      <div className="flex justify-center ">
+      <div className="flex justify-center px-[10px]">
         <div className="border-solid border-2 p-4">
           <img
-            className=""
+            className=" w-full h-[150px]  md:h-[250px] md:w-[950px] md:rounded-none "
             src="https://ghchart.rshah.org/zubaidrasool007"
-            style={{ maxWidth: 950, height: 250, width: "100%" }}
+            // style={{ maxWidth: 950, width: "100%" }}
           />
         </div>
       </div>
