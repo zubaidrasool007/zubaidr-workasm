@@ -8,9 +8,8 @@ export const GithubChart = () => {
       <div className="flex justify-center px-[10px]">
         <div className="border-solid border-2 p-4">
           <img
-            className=" w-full h-[150px]  md:h-[250px] md:w-[950px] md:rounded-none "
+            className=" w-full h-[150px] md:h-[250px] md:w-[950px] md:rounded-none "
             src="https://ghchart.rshah.org/zubaidrasool007"
-            // style={{ maxWidth: 950, width: "100%" }}
           />
         </div>
       </div>
