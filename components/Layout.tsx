@@ -8,6 +8,7 @@ import { Services } from "./Services";
 import { Skills } from "./Skills";
 import { Testimonials } from "./Testimonials";
 import { Resume } from "./Resume";
+import { GithubChart } from "./Github Chart";
 
 export const Layout = () => {
   return (
@@ -20,6 +21,7 @@ export const Layout = () => {
       <Skills />
       <Projects />
       <Testimonials />
+      <GithubChart />
       <Contact />
       <Footer />
     </div>
