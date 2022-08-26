@@ -1,6 +1,6 @@
 export const GithubChart = () => {
   return (
-    <div className="py-[100px]">
+    <div className="py-[50px] md:py-[100px]">
       <h1 className="text-[#fff] text-[35px] font-[900] text-center mb-3 ">
         Contributions
       </h1>
