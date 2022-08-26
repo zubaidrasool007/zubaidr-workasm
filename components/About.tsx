@@ -2,27 +2,23 @@ import Image from "next/image";
 
 export const About = () => {
   return (
-    <div className="bg-[#10141b] p-4 md:py-[200px] " id={"About"}>
+    <div className="bg-[#10141b] p-4 md:py-[200px]" id={"About"}>
       <div className=" flex flex-col ">
         <h1 className="text-[#fff] text-[40px] font-bold text-center mb-3 relative">
           About Me
         </h1>
         <div className="about relative mb-20"></div>
-        <div className="flex flex-col justify-center items-center bg-[#10141b] md:flex-row py-50 ">
+        <div className="flex flex-col justify-center items-center bg-[#10141b] md:flex-row py-50">
           <div className="flex rounded-[50%] p-2 overflow-hidden border-[4px] border-[#fff]">
             <Image
-              style={{
-                borderRadius: "50%",
-                transform: "scale(1)",
-                transition: "all 0.5s ease",
-              }}
+              className="rounded-[50%]"
               src="/assets/images/zubidrasool.png"
               width={250}
               height={250}
               alt="data"
             ></Image>
           </div>
-          <div className="flex flex-col  p-4 sm:w-full md:max-w-xl ">
+          <div className="flex flex-col p-4 sm:w-full md:max-w-xl ">
             <div className="mb-5">
               <span className="text-[#fff] text-[25px] font-bold"> I am</span>
               <span className="text-[#ffc209] text-[25px] font-bold">

@@ -27,17 +27,16 @@ export const Navbar = () => {
       as="nav"
       className={classNames(
         navbar
-          ? "fixed top-0 bg-[#e28007]  transition-all w-full  z-[2] "
-          : "w-full fixed md:bg-transparent w-full  z-[2]"
+          ? "fixed top-0 bg-[#e28007] transition-all w-full z-[2] "
+          : "w-full fixed md:bg-transparent w-full z-[2]"
       )}
-      style={{}}
     >
       <div className="w-full">
         <div className="flex items-center h-20">
           <div className="flex items items-center justify-around w-full">
             <div>
               <h1 className="color-white">
-                <span className="text-[#fff]   text-[20px] sm:text-[28px] font-extrabold">
+                <span className="text-[#fff] text-[20px] sm:text-[28px] font-extrabold">
                   Zubaid
                 </span>
                 <span className="text-[#fff] text-[20px] sm:text-[28px] font-extrabold">
@@ -65,7 +64,7 @@ export const Navbar = () => {
           <div>
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="mx-4  md:hidden "
+              className="mx-4 md:hidden "
             >
               {!isOpen ? (
                 <svg
