@@ -5,7 +5,7 @@ export const Contact = () => {
       id={"Contact"}
     >
       <div className="mt-20 pb-20 px-4">
-        <h1 className="text-[#fff] pt-[80px] text-[35px] font-[900] text-center mb-3 ">
+        <h1 className="text-[#fff] pt-[80px] text-[35px] font-[900] text-center mb-3">
           Get In Touch
         </h1>
         <div className="about relative mb-20"></div>

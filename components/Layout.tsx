@@ -8,7 +8,7 @@ import { Services } from "./Services";
 import { Skills } from "./Skills";
 import { Testimonials } from "./Testimonials";
 import { Resume } from "./Resume";
-import { GithubChart } from "./Github Chart";
+import { GithubChart } from "./GithubChart";
 
 export const Layout = () => {
   return (

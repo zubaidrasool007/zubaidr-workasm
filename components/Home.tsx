@@ -28,7 +28,7 @@ export const Home = () => {
 
   return (
     <div
-      className="bg-[url('/assets/images/home.png')] bg-no-repeat bg-cover bg-center bg-fixed w-full relative z-[1] h-[100vh] "
+      className="bg-[url('/assets/images/home.png')] bg-no-repeat bg-cover bg-center bg-fixed w-full relative z-[1] h-[100vh]"
       id={"Home"}
     >
       <div className="absolute w-full h-[100%] top-0 left-0 bg-black opacity-[.6] z-[-1]"></div>
@@ -44,7 +44,7 @@ export const Home = () => {
           </span>
 
           <span
-            className="text-[#fff] text-[30px] sm:text-[50px] font-bold "
+            className="text-[#fff] text-[30px] sm:text-[50px] font-bold"
             ref={divRef}
           />
         </div>

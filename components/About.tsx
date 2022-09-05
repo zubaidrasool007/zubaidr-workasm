@@ -18,7 +18,7 @@ export const About = () => {
               alt="data"
             ></Image>
           </div>
-          <div className="flex flex-col p-4 sm:w-full md:max-w-xl ">
+          <div className="flex flex-col p-4 sm:w-full md:max-w-xl">
             <div className="mb-5">
               <span className="text-[#fff] text-[25px] font-bold"> I am</span>
               <span className="text-[#ffc209] text-[25px] font-bold">
@@ -27,7 +27,7 @@ export const About = () => {
               </span>
               <p className="text-[#fff]">WEB DEVELOPER & PHOTOGRAPHER</p>
             </div>
-            <p className="mb-5 text-[#fff] font-normal ">
+            <p className="mb-5 text-[#fff] font-normal">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation laboris nisi ut

@@ -29,7 +29,7 @@ export const Navbar = () => {
       as="nav"
       className={classNames(
         navbar
-          ? "fixed top-0 bg-[#e28007] transition-all w-full z-[2] "
+          ? "fixed top-0 bg-[#e28007] transition-all w-full z-[2]"
           : "w-full fixed md:bg-transparent z-[2]"
       )}
     >

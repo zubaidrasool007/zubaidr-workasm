@@ -61,7 +61,7 @@ export const Services = () => {
                 <h5 className="mb-2 text-2xl mt-[30px] text-[#fff] text-center font-bold tracking-tight">
                   {data.title}
                 </h5>
-                <p className="font-normal text-center text-[#c5c5c5] ">
+                <p className="font-normal text-center text-[#c5c5c5]">
                   {data.content}
                 </p>
               </div>
