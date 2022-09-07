@@ -7,12 +7,9 @@ import { Autoplay, Pagination, Navigation, FreeMode } from "swiper";
 import { workingSkills } from "../constants";
 export const Skills = () => {
   return (
-    <div
-      className="bg-[#10141b] px-2 sm:px-5  py-4 md:py-[20px] "
-      id={"Skills"}
-    >
+    <div className="bg-[#10141b] px-2 sm:px-5 py-4 md:py-[20px] " id={"Skills"}>
       <div className="my-40">
-        <h1 className="text-[#fff] text-[35px] font-[900] text-center mb-3 ">
+        <h1 className="text-[#fff] text-[35px] font-[900] text-center mb-3">
           My Skills
         </h1>
         <div className="about relative mb-20"></div>
@@ -49,19 +46,19 @@ export const Skills = () => {
         >
           {workingSkills.map((data) => (
             <SwiperSlide>
-              <div className="block flex justify-center items-center flex-col rounded-[3px] mb-10 px-1 sm:px-5 py-10 bg-[#151921] border border-[#151921] shadow-md ">
-                <div className="relative flex  justify-center items-center">
-                  <div className=" rotate-[45deg]  rounded-[20px] bg-[#c8c8c812]   w-[70px] h-[70px] "></div>
+              <div className="flex justify-center items-center flex-col rounded-[3px] mb-10 px-1 sm:px-5 py-10 bg-[#151921] border border-[#151921] shadow-md">
+                <div className="relative flex justify-center items-center">
+                  <div className=" rotate-[45deg] rounded-[20px] bg-[#c8c8c812] w-[70px] h-[70px]"></div>
                   <div className=" absolute  ">
                     <a href={data.href} className="flex">
                       <Image src={data.svg} height={30} width={30}></Image>
                     </a>
                   </div>
                 </div>
-                <h5 className="mb-2 text-2xl  mt-[30px]  text-[#fff] text-center font-bold tracking-tight  ">
+                <h5 className="mb-2 text-2xl mt-[30px] text-[#fff] text-center font-bold tracking-tight">
                   {data.title}
                 </h5>
-                <p className="font-normal text-center text-[#c5c5c5] ">
+                <p className="font-normal text-center text-[#c5c5c5]">
                   {data.content}
                 </p>
               </div>

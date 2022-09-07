@@ -16,7 +16,6 @@ import ExpressJS from "../public/assets/images/express-js.svg";
 import Webdevelopment from "../public/assets/images/webdevelopment.svg";
 import Webdesign from "../public/assets/images/web-design.png";
 import Responsivedesign from "../public/assets/images/responsive-design.png";
-// Import Swiper styles
 
 export const navItems = [
   { name: "Home", href: "Home", current: false },
