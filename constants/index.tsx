@@ -83,14 +83,14 @@ export const servicesContent = [
     svg: Webdevelopment,
   },
   {
-    title: " UI Design",
+    title: "UI Design",
     content:
       "Lorem ipsum dolor sit amet, id lacus consectetur adipiscingelit. Vivamus egestas, luctus eni",
     svg: Webdesign,
   },
 
   {
-    title: "  Responsive Design",
+    title: "Responsive Design",
     content:
       "Lorem ipsum dolor sit amet, id lacus consectetur adipiscingelit. Vivamus egestas, luctus eni",
     svg: Responsivedesign,

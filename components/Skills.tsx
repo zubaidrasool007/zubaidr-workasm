@@ -44,8 +44,8 @@ export const Skills = () => {
             },
           }}
         >
-          {workingSkills.map((data) => (
-            <SwiperSlide>
+          {workingSkills.map((data, ind) => (
+            <SwiperSlide key={ind + '-skill'}>
               <div className="flex justify-center items-center flex-col rounded-[3px] mb-10 px-1 sm:px-5 py-10 bg-[#151921] border border-[#151921] shadow-md">
                 <div className="relative flex justify-center items-center">
                   <div className=" rotate-[45deg] rounded-[20px] bg-[#c8c8c812] w-[70px] h-[70px]"></div>

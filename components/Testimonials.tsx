@@ -29,8 +29,8 @@ export const Testimonials = () => {
           modules={[Autoplay, Pagination]}
           className="mySwiper   "
         >
-          {reviews.map((data) => (
-            <SwiperSlide>
+          {reviews.map((data, ind) => (
+            <SwiperSlide key={ind+'-review'}>
               <div className="flex justify-center items-center flex-col mb-10 px-5 py-10">
                 <img
                   className="p-1 w-[110px] h-[110px] mb-10 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"

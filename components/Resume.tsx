@@ -10,8 +10,8 @@ export const Resume = () => {
         <div className="about relative mb-20"></div>
         <div className="flex flex-col md:flex-row justify-center space-x-0.9 md:space-x-6">
           <div className="flex justify-center items-center flex-col rounded-[3px] mb-10 px-10 py-5 bg-[#0c0f16] border border-[#151921] shadow-xl">
-            {work.map((data) => (
-              <div className=" py-6 pl-[30px] md:pl-[50px] max-w-xl md:max-w-sm relative circle line">
+            {work.map((data, ind) => (
+              <div className=" py-6 pl-[30px] md:pl-[50px] max-w-xl md:max-w-sm relative circle line" key={ind+'-work'}>
                 <h5 className="mb-2 text-[20px] text-[#fff] font-[500] tracking-tight  ">
                   {data.title}
                 </h5>
@@ -25,8 +25,8 @@ export const Resume = () => {
             ))}
           </div>
           <div className="flex justify-center items-center flex-col rounded-[3px] mb-10 px-10 py-5 bg-[#0c0f16] border border-[#151921] shadow-[rgba(100, 100, 111, 0.2) 0px 7px 29px 0px]">
-            {education.map((data) => (
-              <div className=" py-6 pl-[30px] md:pl-[50px] max-w-xl md:max-w-sm relative circle line">
+            {education.map((data, ind) => (
+              <div className=" py-6 pl-[30px] md:pl-[50px] max-w-xl md:max-w-sm relative circle line" key={ind + '-edu'}>
                 <h5 className="mb-2 text-[20px] text-[#fff] font-[500] tracking-tight">
                   {data.title}
                 </h5>

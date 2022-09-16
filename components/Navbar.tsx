@@ -47,8 +47,8 @@ export const Navbar = () => {
               </h1>
             </div>
             <div className="flex items-basline space-x-4">
-              {navItems.map((item) => (
-                <a href={`#${item.href}`}>
+              {navItems.map((item, ind) => (
+                <a href={`#${item.href}`} key={ind + '-nav'}>
                   <div
                     className={
                       navbar
