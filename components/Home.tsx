@@ -50,14 +50,14 @@ export const Home = () => {
         </div>
         <div className="flex gap-5 pb-6">
           {icons.map(({ svg, path }) => (
-            <div className="relative flex flex-rows justify-center items-center">
+            <button onClick={() => {window.open(path, 'blank')}} className="relative flex flex-rows justify-center items-center">
               <div className=" border-solid border-2 bg-[#e28007] border-[#e28007] rotate-[45deg] p-[18px] rounded-[10px] hover:bg-transparent hover:z-[1] cursor-pointer hover:ease-in"></div>
               <div className="absolute hover:z-[-1]">
                 <a href={path} className="flex">
                   <Image src={svg} height={22} width={22}></Image>
                 </a>
               </div>
-            </div>
+            </button>
           ))}
         </div>
 

@@ -29,7 +29,7 @@ export const navItems = [
 export const icons = [
   {
     svg: Linkdin,
-    path: "https://www.linkedin.com/in/zubaid-rasool-3040b6135https://www.linkedin.com/in/zubaid-rasool-3040b6135",
+    path: "https://www.linkedin.com/in/zubaid-rasool-3040b6135",
   },
   {
     svg: Github,

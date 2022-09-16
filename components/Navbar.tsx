@@ -16,7 +16,6 @@ export const Navbar = () => {
     return () => window.removeEventListener("scroll", handelScroll);
   }, []);
   const handelScroll = () => {
-    console.log("asdfsadfsadfsadfsadfsadf");
     if (window.scrollY >= 80) {
       setNavbar(true);
     } else {
