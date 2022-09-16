@@ -63,7 +63,7 @@ export const Home = () => {
 
         <div className="space-x-4">
           <a
-            href={`#${"Portfolio"}`}
+            href={`#${"Projects"}`}
             className="bg-[#e28007] text-[#fff] font-bold px-8 py-3 rounded-[30px] hover:bg-transparent border-2 border-[#e28007] cursor-pointer hover:ease-in"
           >
             View work

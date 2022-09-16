@@ -42,61 +42,55 @@ export const icons = [
 ];
 export const work = [
   {
-    title: "Full stack Web Developer",
-    date: "2018 - 2020",
+    title: "Full Stack Web Developer",
+    date: "2021 - Now",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+      "I have been working as Full Stack Web Developer for two years now. I use to work with hybrid technologies consist of Angular, React.JS, Node.JS, Express.JS, SQL and MongoDB",
   },
   {
-    title: "Back-End Developer",
-    date: "2018 - 2020",
+    title: "MEAN/MERN Stack Developer",
+    date: "2019 - 2021",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+      "Working with Node.JS, its framework Express and MongoDB from 2019 to onward. I have worked on multiple Apps with MEAN and MERN technologies form 2019 to onward.",
   },
   {
-    title: "UI Designer",
-    date: "2018 - 2020",
+    title: "Front-End Developer",
+    date: "2018 - 2019",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+      "I have been front-end developer from the begining of my career. I started my professional career working with JavaScript's framework Angular, later I worked on React.JS.",
   },
 ];
 
 export const education = [
   {
-    title: "Academic Degree",
-    date: "2018 - 2020",
+    title: "Master’s Degree",
+    date: "2016 - 2018",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+      "I have master’s degree in Computer Science from Bahaul Din Zakariya University Multan.",
   },
   {
     title: "Bachelor’s Degree",
-    date: "2018 - 2020",
+    date: "2013 - 2016",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
-  },
-  {
-    title: "Specialization Course",
-    date: "2018 - 2020",
-    content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+      "I have done my bachelor’s from Bahaul Din Zakariya University Multan in 2016.",
   },
 ];
 export const servicesContent = [
   {
-    title: " Web Developement",
+    title: "Web Development",
     content:
       "Lorem ipsum dolor sit amet, id lacus consectetur adipiscingelit. Vivamus egestas, luctus eni",
     svg: Webdevelopment,
   },
   {
-    title: " UI Desigin",
+    title: " UI Design",
     content:
       "Lorem ipsum dolor sit amet, id lacus consectetur adipiscingelit. Vivamus egestas, luctus eni",
     svg: Webdesign,
   },
 
   {
-    title: "  Responsive Desigin",
+    title: "  Responsive Design",
     content:
       "Lorem ipsum dolor sit amet, id lacus consectetur adipiscingelit. Vivamus egestas, luctus eni",
     svg: Responsivedesign,
@@ -218,7 +212,7 @@ export const reviews = [
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
   },
   {
-    title: "Husnain",
+    title: "Hasnain",
     content:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
   },
