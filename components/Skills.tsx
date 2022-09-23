@@ -7,6 +7,7 @@ import { Autoplay, Pagination, Navigation, FreeMode } from "swiper";
 import { workingSkills } from "../constants";
 import { useEffect, useState } from "react";
 export const Skills = () => {
+  // Created a state variable to make sure DOM has been rendered before Swiper target DOM' window.
   const [domLoaded, setDomLoaded] = useState(false);
 
   useEffect(() => {
