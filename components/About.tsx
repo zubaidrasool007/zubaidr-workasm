@@ -22,16 +22,16 @@ export const About = () => {
             <div className="mb-5">
               <span className="text-[#fff] text-[25px] font-bold"> I am</span>
               <span className="text-[#ffc209] text-[25px] font-bold">
-                {" "}
                 Zubaid Rasool
               </span>
               <p className="text-[#fff]">WEB DEVELOPER</p>
             </div>
             <p className="mb-5 text-[#fff] font-normal">
               I'm primarily a MEAN/ MERN stack developer for last 4+ years.
-               However, I adopted Angular as my first framework. Through these years I have learnt React.JS, 
-               Node.JS, Express, MongoDB and SQL. I have lead a team of 5 people to transform an Angular.JS product into Angular 10.
-               Worked with Socket.io and AWS.
+              However, I adopted Angular as my first framework. Through these
+              years I have learnt React.JS, Node.JS, Express, MongoDB and SQL. I
+              have lead a team of 5 people to transform an Angular.JS product
+              into Angular 10. Worked with Socket.io and AWS.
             </p>
           </div>
         </div>
