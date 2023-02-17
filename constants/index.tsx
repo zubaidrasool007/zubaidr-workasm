@@ -63,21 +63,27 @@ export const work = [
 
 export const education = [
   {
-    title: "Master's of Computer Science",
+    title: "Master’s Degree",
     date: "2016 - 2018",
     content:
-      "I have completed my graduation from Baha ud Din Zakariya University Multan.",
+      "I have master’s degree in Computer Science from Bahaul Din Zakariya University Multan.",
+  },
+  {
+    title: "Bachelor’s Degree",
+    date: "2013 - 2016",
+    content:
+      "I have done my bachelor’s from Bahaul Din Zakariya University Multan in 2016.",
   },
 ];
 export const servicesContent = [
   {
-    title: "Web Developement",
+    title: "Web Development",
     content:
       "Web development refers in general to the tasks associated with developing websites for hosting via intranet or internet.",
     svg: Webdevelopment,
   },
   {
-    title: "UI Desigin",
+    title: "UI Design",
     content:
       "User interface design or user interface engineering is the design of user interfaces for machines and software, such as computers, home appliances, mobile devices, and other electronic devices, with the focus on maximizing usability and the user experience.",
     svg: Webdesign,
@@ -206,7 +212,7 @@ export const reviews = [
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
   },
   {
-    title: "Husnain",
+    title: "Hasnain",
     content:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
   },

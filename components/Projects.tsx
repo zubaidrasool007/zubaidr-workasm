@@ -11,8 +11,8 @@ export const Projects = () => {
         <div className="about relative mb-20"></div>
         <div className="grid justify-center  ">
           <div className="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-            {projectWork.map((data, i) => (
-              <div key={'project-' + i} className="block relative group h-[400px] w-[100%] md:w-[320px] flex-col rounded-[3px] border border-[#151921] shadow-md">
+            {projectWork.map((data, ind) => (
+              <div key={ind+'-project'} className="block relative group h-[400px] w-[100%] md:w-[320px] flex-col rounded-[3px] border border-[#151921] shadow-md">
                 <div className="hidden bg-[rgba(0,0,0,0.7)] group-hover:flex absolute top-0 left-0 w-[100%] h-[100%] justify-center items-center">
                   <div className="z-[1]">
                     <div className="flex flex-col ">

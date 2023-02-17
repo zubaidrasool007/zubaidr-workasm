@@ -16,7 +16,6 @@ export const Navbar = () => {
     return () => window.removeEventListener("scroll", handelScroll);
   }, []);
   const handelScroll = () => {
-    console.log("asdfsadfsadfsadfsadfsadf");
     if (window.scrollY >= 80) {
       setNavbar(true);
     } else {
@@ -48,8 +47,8 @@ export const Navbar = () => {
               </h1>
             </div>
             <div className="flex items-basline space-x-4">
-              {navItems.map((item, i) => (
-                <a key={'nav-' + i} href={`#${item.href}`}>
+              {navItems.map((item, ind) => (
+                <a href={`#${item.href}`} key={ind + '-nav'}>
                   <div
                     className={
                       navbar

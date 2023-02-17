@@ -49,21 +49,21 @@ export const Home = () => {
           />
         </div>
         <div className="flex gap-5 pb-6">
-          {icons.map(({ svg, path }, i) => (
-            <div key={'home-svg-' + i} className="relative flex flex-rows justify-center items-center">
+          {icons.map(({ svg, path }, ind) => (
+            <button onClick={() => {window.open(path, 'blank')}} key={ind + '-links'} className="relative flex flex-rows justify-center items-center">
               <div className=" border-solid border-2 bg-[#e28007] border-[#e28007] rotate-[45deg] p-[18px] rounded-[10px] hover:bg-transparent hover:z-[1] cursor-pointer hover:ease-in"></div>
               <div className="absolute hover:z-[-1]">
                 <a href={path} className="flex">
                   <Image src={svg} height={22} width={22} alt={svg}></Image>
                 </a>
               </div>
-            </div>
+            </button>
           ))}
         </div>
 
         <div className="space-x-4">
           <a
-            href={`#${"Portfolio"}`}
+            href={`#${"Projects"}`}
             className="bg-[#e28007] text-[#fff] font-bold px-8 py-3 rounded-[30px] hover:bg-transparent border-2 border-[#e28007] cursor-pointer hover:ease-in"
           >
             View work

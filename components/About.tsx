@@ -12,26 +12,26 @@ export const About = () => {
           <div className="flex rounded-[50%] p-2 overflow-hidden border-[4px] border-[#fff]">
             <Image
               className="rounded-[50%]"
-              src="/assets/images/zubidrasool.png"
+              src="/assets/images/Muhammad-zubaid-rasool.jpg"
               width={250}
               height={250}
-              alt="data"
+              alt="Muhammad Zubaid Rasool"
             ></Image>
           </div>
           <div className="flex flex-col p-4 sm:w-full md:max-w-xl">
             <div className="mb-5">
               <span className="text-[#fff] text-[25px] font-bold"> I am</span>
               <span className="text-[#ffc209] text-[25px] font-bold">
-                {" "}
                 Zubaid Rasool
               </span>
-              <p className="text-[#fff]">WEB DEVELOPER & PHOTOGRAPHER</p>
+              <p className="text-[#fff]">WEB DEVELOPER</p>
             </div>
             <p className="mb-5 text-[#fff] font-normal">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation laboris nisi ut
-              aliquip ex ea commodo consequat.
+              Primarily a MEAN/ MERN stack developer for last 4+ years.
+              However, I adopted Angular as my first framework. Through these
+              years I have learnt React.JS, Node.JS, Express, MongoDB and SQL. I
+              have lead a team of 5 people to transform an Angular.JS product
+              into Angular 10. Worked with Socket.io and AWS.
             </p>
           </div>
         </div>

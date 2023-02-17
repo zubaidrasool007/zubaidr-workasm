@@ -30,8 +30,8 @@ export const Testimonials = () => {
           modules={[Autoplay, Pagination]}
           className="mySwiper   "
         >
-          {reviews.map((data, i) => (
-            <SwiperSlide key={'reviews-' + i}>
+          {reviews.map((data, ind) => (
+            <SwiperSlide key={ind+'-review'}>
               <div className="flex justify-center items-center flex-col mb-10 px-5 py-10">
                 <Image
                 width={'110px'} height={"110px"}
