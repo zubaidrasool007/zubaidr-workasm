@@ -62,7 +62,7 @@ export const Services = () => {
                   <div className="relative flex  justify-center items-center">
                     <div className="rotate-[45deg] rounded-[20px] bg-[#c8c8c812] w-[70px] h-[70px]"></div>
                     <div className="absolute flex">
-                      <Image src={data.svg} height={30} width={30} />
+                      <Image src={data.svg} height={30} width={30} alt={data.svg} />
                     </div>
                   </div>
 

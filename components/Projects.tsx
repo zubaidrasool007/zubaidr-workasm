@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { projectWork } from "../constants";
 
 export const Projects = () => {
@@ -24,9 +25,10 @@ export const Projects = () => {
                     </div>
                   </div>
                 </div>
-                <img
+                <Image
+                  width={'100%'} height={'100%'}
                   className="h-[100%] max-w-[100%] rounded-[10px]"
-                  src={data.path}
+                  src={data.path} alt={data.path}
                 />
               </div>
             ))}

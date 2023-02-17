@@ -2,13 +2,13 @@ import { useRef, useEffect } from "react";
 import Typed from "typed.js";
 import Image from "next/image";
 import { icons } from "../constants";
+export const TEXT = [" Zubaid Rasool", " Web Developer"];
 
 export const Home = () => {
-  const text = [" Zubaid Rasool", " Web Developer"];
   const divRef: any = useRef();
   useEffect(() => {
     const options = {
-      strings: text,
+      strings: TEXT,
       stringsElement: "#typed-string",
       typeSpeed: 50,
       showCursor: true,
@@ -24,7 +24,7 @@ export const Home = () => {
     return () => {
       typed.destroy();
     };
-  }, [text]);
+  }, []);
 
   return (
     <div
@@ -54,7 +54,7 @@ export const Home = () => {
               <div className=" border-solid border-2 bg-[#e28007] border-[#e28007] rotate-[45deg] p-[18px] rounded-[10px] hover:bg-transparent hover:z-[1] cursor-pointer hover:ease-in"></div>
               <div className="absolute hover:z-[-1]">
                 <a href={path} className="flex">
-                  <Image src={svg} height={22} width={22}></Image>
+                  <Image src={svg} height={22} width={22} alt={svg}></Image>
                 </a>
               </div>
             </button>

@@ -4,6 +4,7 @@ import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import { Autoplay, Pagination, Navigation, FreeMode } from "swiper";
 import { reviews } from "../constants";
+import Image from "next/image";
 export const Testimonials = () => {
   return (
     <div
@@ -32,7 +33,8 @@ export const Testimonials = () => {
           {reviews.map((data, ind) => (
             <SwiperSlide key={ind+'-review'}>
               <div className="flex justify-center items-center flex-col mb-10 px-5 py-10">
-                <img
+                <Image
+                width={'110px'} height={"110px"}
                   className="p-1 w-[110px] h-[110px] mb-10 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"
                   src="https://im.indiatimes.in/content/itimes/photo/2016/Jul/21/1469099514-cutest-baby-images-newborn-babies.jpg"
                   alt="avatar"

@@ -68,9 +68,9 @@ export const Navbar = () => {
               className="mx-4 md:hidden "
             >
               {!isOpen ? (
-                <Image src={MenuIcon} height={35} width={35}></Image>
+                <Image alt={MenuIcon} src={MenuIcon} height={35} width={35}></Image>
               ) : (
-                <Image src={CloseIcon} height={35} width={35}></Image>
+                <Image alt={CloseIcon} src={CloseIcon} height={35} width={35}></Image>
               )}
             </button>
           </div>

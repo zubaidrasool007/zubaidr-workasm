@@ -59,7 +59,7 @@ export const Skills = () => {
                     <div className=" rotate-[45deg] rounded-[20px] bg-[#c8c8c812] w-[70px] h-[70px]"></div>
                     <div className=" absolute  ">
                       <a href={data.href} className="flex">
-                        <Image src={data.svg} height={30} width={30}></Image>
+                        <Image src={data.svg} alt={data.svg} height={30} width={30}></Image>
                       </a>
                     </div>
                   </div>
