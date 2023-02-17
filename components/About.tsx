@@ -27,7 +27,7 @@ export const About = () => {
               <p className="text-[#fff]">WEB DEVELOPER</p>
             </div>
             <p className="mb-5 text-[#fff] font-normal">
-              I'm primarily a MEAN/ MERN stack developer for last 4+ years.
+              Primarily a MEAN/ MERN stack developer for last 4+ years.
               However, I adopted Angular as my first framework. Through these
               years I have learnt React.JS, Node.JS, Express, MongoDB and SQL. I
               have lead a team of 5 people to transform an Angular.JS product
