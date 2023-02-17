@@ -1,4 +1,4 @@
-### This is the portfolio of [Zubaid Rasoo](https://zubaidr-workasm.vercel.app/). It is deployed with the help of Vercel.
+### This is the portfolio of [Zubaid Rasool](https://zubaidr-workasm.vercel.app/). It is deployed with the help of Vercel.
 The work is still in the progress.
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
