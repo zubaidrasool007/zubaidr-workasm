@@ -48,8 +48,8 @@ export const Navbar = () => {
               </h1>
             </div>
             <div className="flex items-basline space-x-4">
-              {navItems.map((item) => (
-                <a href={`#${item.href}`}>
+              {navItems.map((item, i) => (
+                <a key={'nav-' + i} href={`#${item.href}`}>
                   <div
                     className={
                       navbar
@@ -69,9 +69,9 @@ export const Navbar = () => {
               className="mx-4 md:hidden "
             >
               {!isOpen ? (
-                <Image src={MenuIcon} height={35} width={35}></Image>
+                <Image alt={MenuIcon} src={MenuIcon} height={35} width={35}></Image>
               ) : (
-                <Image src={CloseIcon} height={35} width={35}></Image>
+                <Image alt={CloseIcon} src={CloseIcon} height={35} width={35}></Image>
               )}
             </button>
           </div>

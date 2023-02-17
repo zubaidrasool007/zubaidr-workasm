@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export const GithubChart = () => {
   return (
     <div className="py-[50px] md:py-[100px]">
@@ -7,9 +9,10 @@ export const GithubChart = () => {
       <div className="about relative mb-20"></div>
       <div className="flex justify-center px-[10px]">
         <div className="border-solid border-2 p-4">
-          <img
+          <Image
+            layout='fill'
             className=" w-full h-[150px] md:h-[250px] md:w-[950px] md:rounded-none"
-            src="https://ghchart.rshah.org/zubaidrasool007"
+            src="https://ghchart.rshah.org/zubaidrasool007" alt="zubaidrasool007"
           />
         </div>
       </div>

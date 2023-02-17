@@ -48,13 +48,13 @@ export const Services = () => {
             },
           }}
         >
-          {servicesContent.map((data) => (
-            <SwiperSlide>
+          {servicesContent.map((data, i) => (
+            <SwiperSlide key={"service-" + i}>
               <div className="flex justify-center items-center flex-col rounded-[3px] mb-10 px-5 py-10 bg-[#151921] border border-[#151921] shadow-md">
                 <div className="relative flex  justify-center items-center">
                   <div className="rotate-[45deg] rounded-[20px] bg-[#c8c8c812] w-[70px] h-[70px]"></div>
                   <div className="absolute flex">
-                    <Image src={data.svg} height={30} width={30}></Image>
+                    <Image src={data.svg} height={30} width={30} alt={data.svg}></Image>
                   </div>
                 </div>
 
